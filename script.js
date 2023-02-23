@@ -9,7 +9,7 @@ alert(`Your salary from mounth is: ${sum}`)
 alert(`You have extra bonus! Your total salary was: ${sum} it's increase for 1$ and now it is: ${++sum}`)
 const salary = sum;
 if (salary > 2000) {
-  alert("I will work");
+  alert("I'm ready to work");
 } else {
-  alert("I will not work");
+  alert("I'm out");
 }
