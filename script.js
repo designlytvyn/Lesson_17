@@ -1,18 +1,15 @@
 'use strict'
-console.log(`You can ignore single and double quotes like this: \\'\\' \\" \\"`)
-
-//let yourData = alert('Please enter your data')
-//console.log(yourData)
-//let yourName = prompt('Enter your name', 'Name')
-//alert(`Your name is:${yourName}`)
-//let yourSurName = prompt('Enter your surname', 'Surname')
-//alert(`Your ful name is:${yourName}  ${yourSurName}`)
-//let yourAre = prompt('How old are you', 'Age')
-//alert(`Your ful name is:${yourName}  ${yourSurName}, your age is:${yourAre}`)
-//let youAdmin = confirm('Are you admin?')
-//alert(`Your ful name is:${yourName}  ${yourSurName}, your age is:${yourAre}, admin status:${youAdmin}`)
-console.log(alert(('5')));
-console.log(true > false);
-console.log(true > 5);
-console.log(true > '5');
-console.log(true > null);
+let salaryFirst = prompt('Enter first month salary', '1');
+console.log(salaryFirst);
+let salarySecond = prompt('Enter second month salary', '2');
+salaryFirst = Number(salaryFirst);
+salarySecond = Number(salarySecond);
+let sum = salaryFirst + salarySecond;
+alert(`Your salary from mounth is: ${sum}`)
+alert(`You have extra bonus! Your total salary was: ${sum} it's increase for 1$ and now it is: ${++sum}`)
+const salary = sum;
+if (salary > 2000) {
+  alert("I will work");
+} else {
+  alert("I will not work");
+}
